@@ -1,4 +1,4 @@
-# plantilla-teg-factible
+# plantilla-uts-teg-factible
 Esta es una plantilla hecha en LaTeX de la estructura general de un Trabajo
 Especial de Grado siguiendo las pautas del manual de elaboración del TEG del
 Instituto Universitario de Tecnología Antonio José de Sucre (edición del 2016),
