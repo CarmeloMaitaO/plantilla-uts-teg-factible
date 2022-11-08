@@ -1,0 +1,33 @@
+\documentclass[12pt]{report}
+\usepackage{formatos-institutos-educativos-venezolanos}
+
+\logo{<ruta/al/logo>}
+\instituto{
+República Bolivariana de Venezuela\\
+Ministerio del Poder Popular para la Educación\\
+Instituto Universitario de Tecnología Antonio José de Sucre\\
+Extensión <tu extensión>
+}
+\titulo{
+<tu título>\\
+{\normalsize {\normalfont Propuesta de Trabajo Especial de Grado presentado como 
+requisito parcial para optar al Título de Técnico Superior Universitario en\\
+Informática}}
+}
+\fecha{
+Valencia, <mes>, <año>
+}
+\alumno{
+{\bfseries Autor (a):} <autor>\\
+{\bfseries Tutor (a):} <tutor>
+}
+\begin{document}
+	\Preliminares
+	\import{src/capitulo-1}{capitulo-1.tex}
+	\import{src/capitulo-2}{capitulo-2.tex}
+	\import{src/capitulo-3}{capitulo-3.tex}
+	\import{src/capitulo-4}{capitulo-4.tex}
+	\import{src/capitulo-5}{capitulo-5.tex}
+	\printbibliography[title={REFERENCIAS}]
+	\import{src/anexos}{anexos.tex}
+\end{document}
